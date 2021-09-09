@@ -12,6 +12,7 @@ namespace LessonBasıc
         [SerializeField] int sayı = 1000;
         bool dogru = true;
         bool yanlıs2 = false;
+        [SerializeField]private Vector3 ucFloat=new Vector3(1,2,3); //üç tane nokta
         void Start()
         {
 
