@@ -13,9 +13,12 @@ namespace LessonBasıc
         bool dogru = true;
         bool yanlıs2 = false;
         [SerializeField]private Vector3 ucFloat=new Vector3(1,2,3); //üç tane nokta
+        //first lesson property
+        //get ve set leri yönetmek
+        public float floatProperty { get; private set; }
         void Start()
         {
-
+            floatProperty = 100000000f;
         }
 
         // Update is called once per frame
